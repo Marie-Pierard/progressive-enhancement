@@ -1,0 +1,31 @@
+body
+{
+font-size: 25px;
+max-width: 500;
+font-family: cambria;
+color: dark-gray;
+line-height: 1.5;
+}
+a:visited {color: orange;}
+a:hover {color: green;}
+body {
+    width: 90%;
+    background: linear-gradient(#DAAA68, #9EC6EE);
+    margin: auto; 
+    background-image: url("https://1.bp.blogspot.com/-cryEAd39Alw/TyJ-qJsw7RI/AAAAAAAABAg/bDBrfhSO3ec/s1600/Funny%2BHorse%2BPhotos%2B%25282%2529.jpg");
+    background-repeat: no-repeat;    
+    background-position: right bottom;
+}
+q{
+    display: block;
+    width: 100%;
+    max-width: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: rgb(164, 167, 163);
+    border-left: 3px solid #B22222;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    }
