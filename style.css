@@ -2,15 +2,15 @@ body
 {
 font-size: 25px;
 max-width: 500;
-font-family: cambria;
-color: dark-gray;
+font-family: "Open sans";
+color: grey;
 line-height: 1.5;
 }
 a:visited {color: orange;}
 a:hover {color: green;}
 body {
     width: 90%;
-    background: linear-gradient(#DAAA68, #9EC6EE);
+    background-color: linear-gradient(#DAAA68, #9EC6EE);
     margin: auto; 
     background-image: url("https://1.bp.blogspot.com/-cryEAd39Alw/TyJ-qJsw7RI/AAAAAAAABAg/bDBrfhSO3ec/s1600/Funny%2BHorse%2BPhotos%2B%25282%2529.jpg");
     background-repeat: no-repeat;    
@@ -28,4 +28,49 @@ q{
     margin-top: 80px;
     margin-bottom: 80px;
     padding-left: 30px;
+    font-style: italic;
     }
+    .citationFermier {
+        border-left-color: purple;
+    }
+    .citationVillageois{
+        border-left-color: yellowgreen;
+    }
+    header p{
+        background-color: yellow;
+    }
+    .bien{
+        text-transform: uppercase;
+        color:green;
+    }
+    .mal{
+        text-transform: uppercase;
+        color: red;
+    
+    }
+    .ligneGrise{
+        background-color: grey;
+        }
+        .ligneBlanche{
+            background-color: white;
+        }
+    ul{
+        width:500px;    
+        }
+        
+        ul li:nth-child(2){
+            background: url("img/bien.png") no-repeat right;
+            padding: 25px;
+        }
+       ul li:nth-child(3){
+            background: url("img/mal.png") no-repeat right;
+            padding: 12px;
+        }
+        ul li:nth-child(4){
+            background: url("img/chat.png") no-repeat right;
+            padding: 12px;
+        }
+        .flottante
+        {float: right;
+            margin-left: 35px;
+        }
