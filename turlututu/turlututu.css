@@ -1,0 +1,36 @@
+body{
+    max-width: auto;
+    margin:0;
+    padding: 0;
+    font-family: 'arial';
+}
+nav
+{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  color: white;
+  font-weight:bold;
+  height: 35px;
+  background-color: #534f4f;
+}
+.nav-ul
+{
+    flex-direction: row;
+    justify-content:center
+}
+.premier-cadre
+{
+    display: flex;
+    max-width: auto;
+    height: 350px;
+    background-color: rgb(109, 140, 236);
+}
+.deuxieme-cadre
+{
+    display: flex;
+    max-width: auto;
+    height:60px;
+}
+
+}
